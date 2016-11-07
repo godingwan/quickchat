@@ -1,0 +1,5 @@
+On startup, the program should broadcast its status on the local network (over UDP).
+Then, the program should start accepting incoming local connections over TCP.
+Finally, it should begin listening for UDP broadcasts by other clients and responding to them by requesting TCP connections with them.
+At this point, the program has either found existing users or will find users when they start their clients.
+Now, allow the user to enter text and transmit it to all connected clients, as well as display recieved messages.
